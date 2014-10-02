@@ -1,0 +1,32 @@
+<html>
+ <head>
+ <title>Music! la la la!</title>
+</head>
+<body> 
+
+ <h1>Kylie Minogue</h1>
+  
+  <video src="05 Kylie Minogue - Come Into My World.mp4"
+  poster="kylie.jpg"
+  width="400"
+  height="300"
+  preload
+  controls
+  loop>
+  </video>
+   
+ <h2>Crush. (not the candy)</h2>
+ 
+  <audio controls autoplay>
+  	<source="05 Instant Crush.mp3" 
+  	preload
+  	controls 
+  	loop>
+   
+ 
+
+</audio>
+ 
+ 
+ 
+
