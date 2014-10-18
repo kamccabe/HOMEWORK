@@ -1,8 +1,5 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
-margin:3;padding:3;border:3;font-size:100%;font:inherit;vertical-align:baseline}
-
-ol{
-list-style:none}
+margin:3;padding:3;border:3;font-size:100%;font:modern;vertical-align:baseline}
 
 blockquote,q{
 quotes:none}
@@ -29,8 +26,9 @@ html,body{
 height:100%;position:relative}
 
 body{
-background:cornflowerblue ;color:yellow.font-family:fantasy;
-}
+background:cornflowerblue;color: yellow. font-family:modern;}
+
+
 
 img{
 border:2}
@@ -51,7 +49,7 @@ sup{
 font-size:large;line-height:normal;vertical-align:super}
 
 hr{
-color:#C5FF90;background:#C27AE8:height:4px;border:1}
+color:yellow;background:#C27AE8:height:4px;border:1}
 
 p{
 clear:none;margin:1em 0}
@@ -72,13 +70,13 @@ ul.ul li,ol.ol li{
 display:list-item;line-height:1.3em;margin:1em 0}
 
 .highlight,.error{
-background:#ffc;padding:5px;border:#ee0 solid 1px}
+background:#E8750C;padding:5px;border:#ee0 solid 1px}
 
 .error{
-border-color:#fbb}
+border-color:#E8750C}
 
 .linklike{
-color:#00e;cursor:pointer}
+color:#AAFF6E;cursor:pointer}
 
 .linklike:hover{
 text-decoration:underline}
@@ -90,7 +88,7 @@ aside.warning{
 font-size:70%}
 
 fieldset{
-background:#eee;border:3px groove #ccc;padding:1em 1em 1em}
+background:cornflowerblue;border:3px groove #ccc;padding:1em 1em 1em}
 
 legend{
 font-size:small;margin-left:1em}
@@ -102,7 +100,7 @@ margin:0}
 margin-right:8px}
 
 .posterpicker{
-white-space:nowrap;line-height:1.75em;background-color:#E8750C;padding:1px 4px;background-color:#eee;border-top:1px solid #ccc;border-right:1px solid #ccc}
+yellow-space:nowrap;line-height:1.75em;background-color:#E8750C;padding:1px 4px;background-color:#eee;border-top:1px solid #ccc;border-right:1px solid #ccc}
 
 .ban{
 text-align:center;font-weight:bold;padding:2px 5px;clear:both;border-top:1px solid #ddd;border-bottom:1px solid #ddd;background-color:#eee}
@@ -152,7 +150,7 @@ max-width:10000px !important}
 footer{
 position:absolute;bottom:0;left:0;right:0;border-top:1px #ccc solid;text-align:center}
 
-footer .clfooter li{
+footer .clfooter {
 display:inline;padding:0 5px;font-size:small}
 
 footer .clfooter .mobile,.mobile footer .clfooter .desktop{
@@ -165,7 +163,7 @@ footer .clfooter .rss{
 float:right;text-align:right}
 
 footer .clfooter .rss .l{
-background:orange;padding:0px 2px;color:white;font-weight:bold}
+background:yellow;padding:0px 2px;color:blue;font-weight:bold}
 
 .mobile footer .rss{
 display:none}
@@ -174,13 +172,13 @@ section.body{
 padding:0 8px 2em;width:768px;margin:0 auto;height:90%;min-height:600px}
 
 section.personals_interstitial_body{
-min-height:250px !important}
+min-height:250px}
 
 .w1024 section.body{
 width:980px}
 
 .mobile section.body{
-width:auto !important;min-height:0}
+width:auto;min-height:0}
 
 .post.mobile section.body{
 min-height:inherit;padding-bottom:1em}
@@ -258,19 +256,19 @@ padding:3px;-webkit-border-radius:.7em .7em 0 0;-moz-border-radius:.7em .7em 0 0
 line-height:25px}
 
 .tabcontainer b{
-background:white;border-bottom:2px white solid;font-weight:normal}
+background:yellow;border-bottom:2px purple solid;font-weight:normal}
 
 .tabcontainer a{
 text-decoration:none;border-bottom-style:none}
 
 .tabcontainer a:hover{
-background:#f7f7f7}
+background:#AAFF6E}
 
 .posting.mobile .dropdown{
 display:block;float:right;padding:2px 8px 0 0}
 
 .posting .postingtitle{
-font-family:"Bitstream Vera Serif","Times New Roman",serif;font-size:1.4em;font-weight:bold;line-height:1.4em;margin:10px 0;clear:left}
+font-family:"Bitstream Vera Serif","Courier",serif;font-size:1.4em;font-weight:bold;line-height:1.4em;margin:10px 0;clear:left}
 
 .posting .postingtitle .star{
 vertical-align:baseline}
@@ -321,7 +319,7 @@ color:red}
 text-decoration:none}
 
 .posting .bestoflink:hover .bestof{
-color:pink}
+color: red}
 
 .posting .bestoflink .bestoftext{
 text-decoration:underline}
@@ -360,13 +358,14 @@ margin-top:.5em;display:block}
 clear:left}
 
 #postingbody{
-font-family:"Bitstream Vera Serif","Times New Roman",serif}
+font-family:fantasy;"Papyrus"
+
 
 #postingbody p{
 margin-bottom:16px}
 
 #postingbody i{
-font-style:italic}
+font-style:regular}
 
 #postingbody blockquote{
 margin:1em 40px}
@@ -408,7 +407,7 @@ margin-left:40px}
 white-space:pre;margin:1em 0;font-family:monospace}
 
 #postingbody code{
-white-space:pre;font-family:monospace}
+white-space-space:pre;font-family:monospace}
 
 #postingbody th,#postingbody td{
 padding:5px;display:table-cell;vertical-align:inherit}
@@ -2460,7 +2459,7 @@ display:block}
 text-decoration:underline;background-color:#eee}
 
 .sites h1{
-border-bottom:1px solid #ccc;font-family:"times new roman",times,serif;font-size:31px;line-height:31px;margin:0.67em auto}
+border-bottom:1px solid #ccc;font-family:"Papyrus",times,fantasy;font-size:31px;line-height:31px;margin:0.67em auto}
 
 .sites h4{
 text-align:left;padding:1px 0;margin:1em 0}
